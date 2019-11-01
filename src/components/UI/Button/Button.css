@@ -1,0 +1,47 @@
+.Button{
+    position: absolute;
+    left: 30px;
+    top: 125px;
+    background-color: rgb(231, 240, 243);
+    border : 1px;
+    color: black;
+    cursor: pointer;
+    font: inherit;
+    padding : 10px;
+    margin : 10px;
+    font-weight: bold;
+    text-align: right;
+    align-content: flex-end;
+    display: inline-flex;
+}
+
+.Button a {
+    text-decoration: none;
+    color: black;
+}
+
+.Button:first-of-type{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.Button-list{
+    background-color:#f1bb4e;
+    border : 1px solid #f1bb4e;
+    color: black;
+    cursor: pointer;
+    font: inherit;
+    padding : 10px;
+    margin : 10px;
+    font-weight: bold;
+    text-align: right;
+    display:inline-block;
+}
+
+    
+.title-style{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    color :black;
+}

@@ -1,0 +1,23 @@
+.list{
+    list-style : none;
+    padding : 0;
+    display : inline-flex;
+    
+}
+
+.next-Button{
+    position: absolute;
+    right: 0;
+    top: 125px;
+    background-color: rgb(231, 240, 243);
+    border : 1px;
+    color: black;
+    cursor: pointer;
+    font: inherit;
+    padding : 10px;
+    margin : 10px;
+    font-weight: bold;
+    text-align: right;
+    align-content: flex-end;
+    display: inline-flex;
+}
